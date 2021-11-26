@@ -18,3 +18,6 @@ function show(data) {
     document.getElementById("death-value").innerHTML=(data.deaths);
     document.getElementById("recovered-value").innerHTML=(data.recovered);
 }
+function msg(){  
+ alert("Hello Javatpoint");  
+} 
