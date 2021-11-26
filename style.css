@@ -1,0 +1,279 @@
+.logo{
+/*	margin-left: 75px;
+	margin-top: 5px;*/
+	font-family: "Audiowide";
+	color: #85C1E9;
+	text-shadow: 2px 2px darkred;
+	position: sticky;
+
+	position: -webkit-sticky;
+	top: 0;
+	
+}
+.logo h1{
+/*	margin-left: 100px ;
+	margin-top: -40px;
+	margin-bottom: -20px;*/
+	display: inline;
+}
+.menu{
+	/*margin-left: 900px;
+	margin-top: -30px;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-weight: 300;
+	/*position: sticky;
+	position: -webkit-sticky;
+	right: 0;*/
+	position: fixed;
+
+
+}
+.menu a{
+	text-decoration: none;
+	padding: 2px;
+	color: black;
+	border-style: solid;
+	border-color: blueviolet;
+}
+.menu a:hover{
+	color: darkorchid;
+	background-color: black;
+
+}
+.learnmore{
+	background-color: green;
+	padding-top: 60px;
+	text-align: center;
+	height: 400px;
+	margin-top: 30px;
+
+}
+.learnmore button{
+	background-color: white;
+	border: none;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+	
+	padding: 20px;
+	border-radius: 5px;
+}
+.learnmore p{
+	/*margin: 30px;*/
+}
+.head h1{
+
+	text-align: center;
+	/*margin-top: -400px;*/
+	font-family: sans-serif;
+	text-transform: uppercase;
+	background-color: white;
+}
+.head1{
+	background-color: white;
+}
+.aboutus{
+	background-color: lightgrey;
+	/*background-size: inherit;*/
+
+	font-family: sans-serif;
+	/*padding: 60px;*/
+	/*text-align: left;*/
+	display: inline-block;
+
+	
+}
+.aboutus p{
+	inline-size: 300px;
+	/*margin-top: 30px;*/
+}
+.aboutus h1{
+	
+	
+	display: inline;
+}
+
+/*.aboutus img{
+	
+	
+	float: right;
+	display: inline-block;
+}*/
+/*.chess{
+	
+	margin-right:50px ;
+	margin-top: -100px;
+display: flex;
+	justify-content: flex-end;
+	margin-right: auto;
+}*/
+html{
+	scroll-behavior: smooth;
+}
+.owner{
+	margin-top: 10px;
+}
+.owner h3{
+	/*margin-left: 700px;
+	inline-size: 250px;
+	margin-top: -110px;*/
+	text-align: center;
+
+}
+.owner p{
+	/*margin-left: 700px;
+	inline-size: 250px;
+	margin-top: -11px;*/
+	text-align: center;
+}
+.owner img{
+	margin-left: auto;
+	margin-right: auto;
+	/*width: 50%;*/
+	display: block;
+
+}
+.subscribe{
+	background-color: #ABEBC6;
+	text-align: center;
+	height: 150px;
+	margin-top: 65px;
+	height: 260px;
+}
+#email{
+	width: 40%;
+	height: 30px;
+	margin-top: 120px;
+	background-color:#ABEBC6 ;
+	
+	border-radius: 5px;
+	border-color: white;
+	border-style: solid;
+	color: white;
+
+}
+::placeholder{
+	color: white;
+	font-size: 14px;
+}
+#submit{
+	background-color: white;
+	border-style: none;
+	padding: 9px;
+	border-radius: 5px;
+	color: #ABEBC6;
+	cursor: pointer;
+}
+.about_company{
+	inline-size: 200px;
+	/*margin-left: 200px;*/
+	font-family: sans-serif;
+	/*margin-top: 40px;*/
+}
+.quick_links{
+	/*margin-left: 650px;*/
+	font-family: sans-serif;
+	/*margin-top: -145px;*/
+}
+.quick_links a{
+	text-decoration: none;
+	
+	color: black;
+}
+.contact_us{
+	/*margin-left: 1050px;*/
+	font-family: sans-serif;
+	/*margin-top: -145px;*/
+}
+#insta{
+	border-radius: 7px;
+	/*margin-left: 2px;*/
+}
+.fa-instagram{
+	/*margin-left: 2px;*/
+	color: #fb3958;
+}
+.fa-facebook-square{
+	/*margin-left: 8px;*/
+	color: #4267B2;
+}
+.fa-twitter{
+	/*margin-left: 8px;*/
+	color: #1DA1F2;
+}
+.fa-whatsapp{
+	/*margin-left: 8px;*/
+	color: green;
+}
+.mapouter{
+	/*margin-left: 500px;*/
+}
+
+/ For mobile phones: /
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  / For tablets: /
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  / For desktop: /
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+*{
+	margin-left: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+.inline{
+	display: inline-block;
+	float: left;
+	padding: 50px;
+	text-align: center;
+	/*background-color: white;*/
+}
+.footer {
+    height: 30px;
+    background-color: red;
+}
+/*.abtus{
+	display: inline-block;
+}*/
+.chess{
+	display: inline;
+	
+
+
+}
+.abtus{
+	background-color: lightgrey;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
